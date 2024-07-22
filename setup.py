@@ -7,6 +7,6 @@ setup(
    author='MyIoT4All.com',
    author_email='welcome@myiot4all.com',
    packages=['MyIoT4All'],  #same as name
-   data_files=[('settings.ini', ['systemreport/settings.ini'])],
+   data_files=[('settings.ini', ['settings.ini'])],
    install_requires=['RPi.version'], #external packages as dependencies
 )
